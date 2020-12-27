@@ -9,6 +9,9 @@ def resta(operando1,operando2):
 def multiplicacion(operando1,operando2):
     resultado = operando1*operando2
     return resultado
+def division(operando1,operando2):
+    resultado = operando1/operando2
+    return resultado
 #Iniciando el programa Principal 
 
 opc = 0
