@@ -1,10 +1,13 @@
 def suma(operando1,operando2):
     resultado = operando1+operando2
-
     return resultado
+
 def resta(operando1,operando2):
     resultado = operando1-operando2
-
+    return resultado
+    
+def multiplicacion(operando1,operando2):
+    resultado = operando1*operando2
     return resultado
 #Iniciando el programa Principal 
 
