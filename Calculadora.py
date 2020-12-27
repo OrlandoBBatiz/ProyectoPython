@@ -24,8 +24,7 @@ while opc != 5:
         print(suma(op1,op2))
 
     elif opc == 2:
-        op1 = int(input("Ingrese el primero operando: "))
-        op2 = int(input("Ingrese el segundo operando: "))
+        
         print("Rellizando la Resta:\n")
     elif opc == 3:
         op1 = int(input("Ingrese el primero operando: "))
