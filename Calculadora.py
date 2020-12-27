@@ -2,7 +2,10 @@ def suma(operando1,operando2):
     resultado = operando1+operando2
 
     return resultado
+def resta(operando1,operando2):
+    resultado = operando1-operando2
 
+    return resultado
 #Iniciando el programa Principal 
 
 opc = 0
@@ -20,7 +23,7 @@ while opc != 5:
     if opc == 1:
         op1 = int(input("Ingrese el primero operando: "))
         op2 = int(input("Ingrese el segundo operando: "))
-        print("Rellizando la suma:\n")
+        print("Realizando la suma:\n")
         print(suma(op1,op2))
 
     elif opc == 2:
